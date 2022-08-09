@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  padding-top: 130px;
+  margin-top: 0;margin-left: 0;margin-right: 0;margin-bottom: 0;
+}
+
+header{
+  width: 100%;
+  height: 130px;
+  background-color: #ededed;
+  padding: 5px 50px 10px 50px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.Quicksand{
+   font-family: 'Quicksand', sans-serif;
+   letter-spacing: 0.2em;
+}
+ .Noto{
+   font-family: 'Noto Sans JP', sans-serif;
+   letter-spacing: 0.2em;
+   text-align: center;
+ }
+
+ .Kurenai{
+   font-family: 'Zen Kurenaido', sans-serif;
+   text-align: center;
+   letter-spacing: 0.1em;
+ }
+
+.main{
+  background-color: #FAFAFA
+}
+
+.list {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 38px;
+  color: #505050;
+  text-align: center;
+  padding-top: 200px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  letter-spacing: 0.2em;
+}
+
+.header-logo {
+  text-align: center;
+  font-size: 28px;
+  color: #505050;
+  padding: 1px 40px 0px 40px;
+}
+
+ul{
+  list-style-type: none;
+	padding-left: 0;
+}
+
+li{
+	width: 50px;
+	height:20px;
+	padding:35px;
+	margin: 10px;
+}
+
+.header-list{
+  text-align: center;
+}
+
+.header-list li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.contents{
+  padding: 50px;
+  display: flex;
+  justify-content:center;
+  flex-direction:row;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
+
+.contents-item{
+  margin:  10px;
+}
+
+.contents-img{
+  overflow: hidden;
+}
+
+.title{
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.15em;
+  font-size: 29px;
+  height:30px;
+  line-height:10px;
+  padding: 0px;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+.category{
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.15em;
+  font-size: 18px;
+  line-height:1px;
+  margin-top:0px;
+  margin-bottom:80px;
+}
+
+.about_category{
+  font-family: 'Zen Kurenaido', sans-serif;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.principle_main{
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 50px;
+  color: #333333;
+  letter-spacing: 0.3em;
+  text-align: center;
+  margin-bottom:10px;
+  margin-left: 10px;
+}
+
+.Principle_image{
+  padding: 10px;
+  display: flex;
+  justify-content:center;
+  flex-direction:row;
+  padding-top: 1px;
+}
+
+.Principle_image_item{
+  margin: 0px 110px;
+}
+
+.Skills_image{
+  margin-top: 20px;
+}
+
+.edu_text{
+  padding-top: 20px;
+}
+
+.exp_text{
+  padding-top: 20px;
+}
+
+.con_text{
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+footer{
+  width: 100%;
+  height: 130px;
+  background-color: #ededed;
+}
+
+a{
+  color: #505050;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #adadad;
+}
+
+a:hover img{
+  transform: scale(1.2);
+  opacity: 0.6;
+  transition-duration: 0.5s;
+}
+
+.pages{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  margin: 80px 0px;
+}
+
+.pages-item{
+  margin: 80px 0px;
+}
+
+.pages-item img{
+  border: 0.3px solid #505050;
+}
